@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "unusual_unuseds:block/ruby_ore"
+  }
+}

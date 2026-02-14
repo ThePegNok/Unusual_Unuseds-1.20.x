@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.unexplainable.unusual_unuseds.block.ModBlocks;
 import net.unexplainable.unusual_unuseds.item.ModCreativeModeTabs;
 import net.unexplainable.unusual_unuseds.item.ModItems;
 import org.slf4j.Logger;
@@ -33,9 +34,9 @@ public class UnusualUnuseds {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
-
         modEventBus.addListener(this::addCreative);
     }
 

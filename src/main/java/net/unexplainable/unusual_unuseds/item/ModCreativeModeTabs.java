@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.unexplainable.unusual_unuseds.UnusualUnuseds;
+import net.unexplainable.unusual_unuseds.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -19,6 +20,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.QUICKSILVER.get());
+
+                        output.accept(ModBlocks.RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_ORE.get());
                     })
                     .build());
 

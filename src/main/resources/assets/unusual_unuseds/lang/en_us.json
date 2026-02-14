@@ -2,5 +2,8 @@
   "item.unusual_unuseds.ruby": "Ruby",
   "item.unusual_unuseds.quicksilver": "Quicksilver",
 
+  "block.unusual_unuseds.ruby_ore": "Ruby Ore",
+  "block.unusual_unuseds.ruby_block": "Ruby Block",
+
   "creativetab.unusual_unuseds_tab": "Unusual Unuseds"
 }
