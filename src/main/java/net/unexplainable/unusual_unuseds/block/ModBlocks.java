@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.unexplainable.unusual_unuseds.UnusualUnuseds;
+import net.unexplainable.unusual_unuseds.block.custom.LightbulbBlock;
 import net.unexplainable.unusual_unuseds.item.ModItems;
 
 import java.util.function.Supplier;
@@ -30,6 +31,9 @@ public class ModBlocks {
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(2,6)));
 
 
+
+    public static final RegistryObject<Block> LIGHTBULB = registerBlock("lightbulb",
+            () -> new LightbulbBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_LAMP)));
 
 
 

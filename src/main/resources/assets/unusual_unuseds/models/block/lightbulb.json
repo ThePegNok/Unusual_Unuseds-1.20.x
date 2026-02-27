@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_piston",
+  "textures": {
+    "bottom": "minecraft:block/smooth_stone",
+    "platform": "unusual_unuseds:block/lightbulb_top",
+    "side": "unusual_unuseds:block/lightbulb_side"
+  }
+}

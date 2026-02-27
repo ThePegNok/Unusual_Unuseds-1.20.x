@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "lit=false,facing=down": {
+      "model": "unusual_unuseds:block/lightbulb",
+      "x": 90
+    },
+    "lit=false,facing=east": {
+      "model": "unusual_unuseds:block/lightbulb",
+      "y": 90
+    },
+    "lit=false,facing=north": {
+      "model": "unusual_unuseds:block/lightbulb"
+    },
+    "lit=false,facing=west": {
+      "model": "unusual_unuseds:block/lightbulb",
+      "y": 270
+    },
+    "lit=false,facing=south": {
+      "model": "unusual_unuseds:block/lightbulb",
+      "y": 180
+    },
+    "lit=false,facing=up": {
+      "model": "unusual_unuseds:block/lightbulb",
+      "x": 270
+    },
+    "lit=true,facing=down": {
+      "model": "unusual_unuseds:block/lightbulb_on",
+      "x": 90
+    },
+    "lit=true,facing=east": {
+      "model": "unusual_unuseds:block/lightbulb_on",
+      "y": 90
+    },
+    "lit=true,facing=north": {
+      "model": "unusual_unuseds:block/lightbulb_on"
+    },
+    "lit=true,facing=west": {
+      "model": "unusual_unuseds:block/lightbulb_on",
+      "y": 270
+    },
+    "lit=true,facing=south": {
+      "model": "unusual_unuseds:block/lightbulb_on",
+      "y": 180
+    },
+    "lit=true,facing=up": {
+      "model": "unusual_unuseds:block/lightbulb_on",
+      "x": 270
+    }
+ }
+}

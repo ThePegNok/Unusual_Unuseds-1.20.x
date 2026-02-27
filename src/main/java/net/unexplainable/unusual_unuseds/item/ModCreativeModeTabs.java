@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
+
+                        output.accept(ModBlocks.LIGHTBULB.get());
                     })
                     .build());
 

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/smooth_stone",
+    "side": "unusual_unuseds:block/lightbulb_side",
+    "top": "unusual_unuseds:block/lightbulb_top"
+  }
+}
