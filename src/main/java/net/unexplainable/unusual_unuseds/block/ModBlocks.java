@@ -28,11 +28,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(4.5f).requiresCorrectToolForDrops(), UniformInt.of(2,6)));
+                    .strength(4.5f, 3.0f).requiresCorrectToolForDrops(), UniformInt.of(2,6)));
 
     public static final RegistryObject<Block> DIRT_COAL_ORE = registerBlock("dirt_coal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)
-                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(2,6)));
+                    .strength(2.0f, 0.5f).requiresCorrectToolForDrops(), UniformInt.of(0,1)));
 
 
     public static final RegistryObject<Block> LIGHTBULB = registerBlock("lightbulb",
